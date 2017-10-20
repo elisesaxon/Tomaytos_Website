@@ -1,3 +1,14 @@
+/*
+    Elise Saxon
+    CS342: Web Scripting
+    Due Oct 27, 2017
+
+    Tomayto/tomahto website: A site formatted based on Homework #2
+    specifications. Practice with basic HTML and CSS concepts.
+    This file styles tomayto.html based on certain specifications in
+    Homework #2.
+*/
+
 body {
   background:
     url("images/tomatobanner.png") repeat-x top,
@@ -35,17 +46,28 @@ h1 {
   color: #ff2211;
   font-size: 64pt;
   font-family: sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
 }
 
 #right_bar {
   background-color: #558822;
   width: 250px;
   float: right;
+  border-top-right-radius: 12px;
+}
+
+dl {
+  font-family: sans-serif;
+  margin: 10px;
 }
 
 #reviews_section {
-  -webkit-columns: 275px 2;
-  columns: 275px 2;
+  /*-webkit-columns: 275px 2;
+  columns: 275px 2;*/
+  width: 550px;
 }
 
 .review {
