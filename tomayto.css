@@ -57,17 +57,30 @@ h1 {
   width: 250px;
   float: right;
   border-top-right-radius: 12px;
+  background-image: url("images/princessbride.png");
+  background-repeat: no-repeat;
 }
 
 dl {
   font-family: sans-serif;
+  padding-top: 410px;
   margin: 10px;
 }
 
-#reviews_section {
-  /*-webkit-columns: 275px 2;
-  columns: 275px 2;*/
+#reviews_block {
   width: 550px;
+}
+
+#reviews_col1 {
+  width: 275px;
+  float: left;
+  /*display: inline-block;*/
+}
+
+#reviews_col2 {
+  width: 275px;
+  /*margin-left: 275px;*/
+  display: inline-block;
 }
 
 .review {
@@ -81,4 +94,10 @@ dl {
   font-size: 8pt;
   font-weight: bold;
   padding: 5px;
+}
+
+.review+p, .review+p+p {
+  font-style: italic;
+  text-align: right;
+  margin: 0px;
 }
