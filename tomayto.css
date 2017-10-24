@@ -38,6 +38,7 @@ h1 {
   width: 800px;
   border: 8px solid #999999;
   border-radius: 20px;
+  overflow: auto;
 }
 
 #top_bar {
@@ -69,6 +70,7 @@ dl {
 
 #reviews_block {
   width: 550px;
+  overflow: auto;
 }
 
 #reviews_col1 {
