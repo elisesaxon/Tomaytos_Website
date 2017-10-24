@@ -43,7 +43,6 @@ h1 {
 
 #top_bar {
   background-color: #114400;
-  /*vertical-align: text-top;*/
   color: #ff2211;
   font-size: 64pt;
   font-family: sans-serif;
@@ -68,11 +67,6 @@ dl {
   margin: 10px;
 }
 
-#reviews_block {
-  width: 550px;
-  overflow: auto;
-}
-
 #reviews_col1 {
   width: 275px;
   float: left;
@@ -93,6 +87,7 @@ dl {
   background-color: #ffbb88;
   border: 3px solid black;
   border-radius: 10px;
+  overflow: auto;
 
   font-family: sans-serif;
   font-size: 8pt;
@@ -100,6 +95,10 @@ dl {
   padding: 5px;
   margin-top: 15px;
   margin-bottom: 0px;
+}
+
+.review img {
+  float: left;
 }
 
 .review > p:first-child + p, .review > p:first-child + p + p {
